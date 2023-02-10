@@ -3,11 +3,10 @@ package com.platzi.market.persistence.entity;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Entity
 @Table(name = "compras")
-public class Compras {
+public class Compra {
 
     @Id //Se coloca esta notación ya que es la llave primaria de esta colomna (compras)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
