@@ -9,18 +9,18 @@ public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_categoria")
-    private Integer categoria;
+    private Integer idCategoria;
 
     private Character descripcion;
 
     private Boolean estado;
 
     public Integer getCategoria() {
-        return categoria;
+        return idCategoria;
     }
 
     public void setCategoria(Integer categoria) {
-        this.categoria = categoria;
+        this.idCategoria = categoria;
     }
 
     public Character getDescripcion() {
